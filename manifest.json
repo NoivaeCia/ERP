@@ -1,0 +1,24 @@
+{
+  "name": "Bridal Store – Gestão Inteligente",
+  "short_name": "Bridal Store",
+  "description": "ERP para loja de vestidos de noiva, festa, ternos e acessórios: aluguel, vendas, caixa, financeiro e agenda.",
+  "id": "./",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0d0c0b",
+  "theme_color": "#0d0c0b",
+  "lang": "pt-BR",
+  "categories": ["business", "productivity"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Nova venda", "url": "./#/vendas", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Aluguéis", "url": "./#/alugueis", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Caixa", "url": "./#/caixa", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
